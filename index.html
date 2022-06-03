@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // La configuración de firebase de tu aplicación web
+  const firebaseConfig = {
+  apiKey: "AIzaSyDGh8ljinDWgRjk2tu_xPgjZjDh8FcjSmY",
+  authDomain: "super-peppa-voladora.firebaseapp.com",
+  databaseURL: "https://super-peppa-voladora-default-rtdb.firebaseio.com",
+  projectId: "super-peppa-voladora",
+  storageBucket: "super-peppa-voladora.appspot.com",
+  messagingSenderId: "960825419652",
+  appId: "1:960825419652:web:06e288e3f010288fdd5fd1"
+};
+  // Inicia Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
